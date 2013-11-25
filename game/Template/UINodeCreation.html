@@ -1,0 +1,16 @@
+<div class="ui ui_nodeCreation">
+    <ul>
+        {{#each TYPE}}
+            <li>
+                <input  type="radio"
+                        name="ui_nodeCreation-type"
+                        id="ui_nodeCreation-type_{{ prototype.displayName }}"
+                        value="{{ @key }}"
+                />
+                <label for="ui_nodeCreation-type_{{ prototype.displayName }}">
+                    {{ prototype.displayName }} ({{ prototype.cost }} drones)
+                </label>
+            </li>
+        {{/each}}
+    </ul>
+</div>

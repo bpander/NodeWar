@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+}
+
+.nodeWar {
+    height: 100%;
+}
+
+.object {
+    position: fixed;
+}
+
+.node {
+    padding: 20px;
+    margin-top: -20px;
+    margin-left: -20px;
+    border-radius: 50%;
+    background: #ff0000;
+}
+
+.node:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    text-align: center;
+}
+
+.node_base {
+    padding: 50px;
+    margin-top: -50px;
+    margin-left: -50px;
+    background: #00ff00;
+}
+
+.node_base:after {
+    content: 'Base';
+}
+
+.node_factory:after {
+    content: 'Factory';
+}
+
+.node_mine:after {
+    content: 'Mine';
+}
+
+.node_stronghold:after {
+    content: 'Stronghold';
+}
+
+.node_outpost:after {
+    content: 'Outpost';
+}
+
+.node_inactive {
+    background: #cccccc;
+}
+
+.environment {
+    background: #000000;
+    height: 100%;
+}
+
+.branch {
+    height: 2px;
+    background: #ffffff;
+    width: 100px;
+    -webkit-transform-origin: 0 0;
+}
+
+.ui {
+    position: fixed;
+}
+
+.ui_nodeCreation {
+    background: #ffffff;
+    padding: 10px;
+}
+
+.drone {
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    background: #3399dd;
+}

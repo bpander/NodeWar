@@ -1,0 +1,7 @@
+{
+  "name": "Eventable",
+  "main": "Eventable.js",
+  "version": "0.0.0",
+  "description": "Base class intended to provide event-handling abilities to child objects",
+  "license": "MIT"
+}
